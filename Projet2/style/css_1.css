@@ -1,0 +1,44 @@
+body{
+  font-family: Helvetica;
+  width: 98%;
+  margin: 0px auto;
+}
+#recherche{
+  margin-left: 480px;
+  top : 0px;
+
+
+}
+form>input{
+  padding: 8px;
+	margin: 8px;
+	border-radius: 5px;
+}
+#explorer{
+  width: 250px;
+  background: blue;
+  float: left;
+}
+#detail{
+  background: yellow;
+  width: 550px;
+}
+#espace_variable{
+  background-color: red;
+  width: 400px;
+  float: right;
+}
+#explorer, #detail, #espace_variable{
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+#avatar{
+  float: right;
+  max-width: 80px;
+  max-height: 120px;
+}
+.connecte>h2{
+  text-align: left;
+  margin-bottom: 4px;
+}
